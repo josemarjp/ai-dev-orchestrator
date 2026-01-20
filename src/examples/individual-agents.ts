@@ -2,6 +2,7 @@
  * Example of using individual agents directly
  */
 
+import 'dotenv/config';
 import { Orchestrator } from '../orchestrator/index.js';
 import { ContextInputSchema } from '../contracts/v1/context.schema.js';
 import type { Review } from '../contracts/v1/review.schema.js';
